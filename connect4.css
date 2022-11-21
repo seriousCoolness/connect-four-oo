@@ -1,5 +1,22 @@
 /* game board table */
 
+#controls {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px; 
+  width: 95%;
+  height: auto;
+  border: solid 1px black;
+  background-color: gray;
+}
+
+#board {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #board td {
   width: 50px;
   height: 50px;
@@ -13,14 +30,6 @@
   width: 80%;
   height: 80%;
   border-radius: 50%;
-}
-
-.piece.p1 {
-  background-color: red;
-}
-
-.piece.p2 {
-  background-color: blue;
 }
 
 /* column-top is table row of clickable areas for each column */
